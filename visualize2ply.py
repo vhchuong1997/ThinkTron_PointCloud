@@ -23,25 +23,13 @@ label_color = np.asarray(label_colors, dtype=np.uint8)
 
 # 地址
 # 1\读取的ply地址
-inputplypath = ['output/output_1.ply',
-                'output/output_2.ply',
-                'output/output_3.ply']
-                # 'Dataset/SensatUrban/original_block_ply/output_7_trans_3.ply',
-                # 'Dataset/SensatUrban/original_block_ply/output_9_trans_3.ply',
-                # 'Dataset/SensatUrban/original_block_ply/output_10_trans_3.ply',
-                # 'Dataset/SensatUrban/original_block_ply/output_11_trans_3.ply',
-                # 'Dataset/SensatUrban/original_block_ply/output_12_trans_3.ply',
-                # 'Dataset/SensatUrban/original_block_ply/output_13_trans_3.ply']
-                # 'Dataset/SensatUrban/original_block_ply/birmingham_block_2.ply',
-                # 'Dataset/SensatUrban/original_block_ply/birmingham_block_8.ply',
-                # 'Dataset/SensatUrban/original_block_ply/cambridge_block_15.ply',
-                # 'Dataset/SensatUrban/original_block_ply/cambridge_block_16.ply',
-                # 'Dataset/SensatUrban/original_block_ply/cambridge_block_22.ply',
-                # 'Dataset/SensatUrban/original_block_ply/cambridge_block_27.ply']
-# 2\读取的标签地址 /home/mspl/SensatUrban/test/Log_2022-04-12_06-01-31
-inputlabelpath = ['test/Log_2022-05-04_15-08-37/test_preds/output_1_nor.label',
-                  'test/Log_2022-05-04_15-08-37/test_preds/output_2_nor.label',
-                  'test/Log_2022-05-04_15-08-37/test_preds/output_3_nor.label']
+inputplypath = ['output/ThinkTron_1.ply',
+                'output/ThinkTron_2.ply',
+                'output/ThinkTron_3.ply']
+
+inputlabelpath = ['test/Log_2022-05-04_15-08-37/test_preds/ThinkTron_1.label',
+                  'test/Log_2022-05-04_15-08-37/test_preds/ThinkTron_2.label',
+                  'test/Log_2022-05-04_15-08-37/test_preds/ThinkTron_3.label']
                 #   'test/Log_2022-05-30_15-59-32/test_preds/output_7_trans_3.label',/home/mspl/SensatUrban/test/Log_2022-05-04_15-08-37/test_preds
                 #   'test/Log_2022-05-30_15-59-32/test_preds/output_9_trans_3.label',
                 #   'test/Log_2022-05-30_15-59-32/test_preds/output_10_trans_3.label',
